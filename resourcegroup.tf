@@ -4,6 +4,7 @@ resource "azurerm_resource_group" "name" {
     tags = {
       owner = "DEV_ENV"
       department = "Film Making"
-    }
+      Env = "Sunny"
+    } 
   
 }
