@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "name" {
     location = "South Africa North"
     tags = {
       owner = "DEV_ENV"
+      department = "Film Making"
     }
   
 }
