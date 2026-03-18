@@ -5,6 +5,8 @@ resource "azurerm_resource_group" "name" {
       owner = "DEV_ENV"
       department = "Film Making"
       Env = "Sunny"
+      product = "biscoff"
     } 
+    
+    }
   
-}
